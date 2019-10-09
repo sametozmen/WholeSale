@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div data-role="page" id="page1">
+    	<div data-role="header" data-position="fixed" style="background-color: #16C4BB; padding: 5px 0 5px 0">
+    		<a id="searchPanelButton" href="#search-panel" class="ui-btn ui-icon-search ui-btn-icon-notext ui-nodisc-icon"></a>
+    		<h1 style="color: white; font-weight: bold">Wholesale Commerce</h1>
+    		<a id="cartPanelButton" href="#cart-panel" class="ui-btn ui-icon-shop ui-btn-icon-notext ui-nodisc-icon"></a>
+    	</div>
+    	<div data-role="panel" id="search-panel" data-display="overlay" data-position="left" data-theme="b" style="background:rgba(0,0,0,0.8);">
+    		<h2 style="text-align: center;">SEARCH</h2>
+            <hr><br><br>
+    		<input type="text" id="search" style="background-color: white; color: black;">
+    		<input type="button" id="searchButton" value="Search">
+    	</div>
+    	<div data-role="panel" id="cart-panel" data-display="overlay" data-position="right" data-theme="b">
+
+    	</div>
+    	<div data-role="content" id="content">
+
+    	</div>
+        <div data-role="navbar" id="navbar">
+
+        </div>
+    </div>
+</body>
+</html>

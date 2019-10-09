@@ -1,0 +1,91 @@
+#searchPanelButton {
+    background-color: transparent; 
+    border-width: 0; 
+    box-shadow: none; 
+    width: 10%; 
+    margin-top: 1%;
+}
+#cartPanelButton {
+    background-color: transparent; 
+    border-width: 0; 
+    box-shadow: none; 
+    width: 10%; 
+    margin-top: 1%;
+}
+.ui-btn::after {
+    background-size: 100% !important;
+    border-radius: 0px !important;
+}
+#signUpDiv {
+    width: 100%; 
+    overflow: auto; 
+    text-align: center; 
+    font-size: 14pt; 
+    font-weight: bold;
+}
+#user_nameDiv {
+    width: 100%; 
+    overflow: auto; 
+    text-align: center; 
+    margin-top: 10%;
+}
+#firm_nameDiv {
+    width: 100%; 
+    overflow: auto; 
+    margin: 5% auto 0 auto;
+}
+#phone_numberDiv {
+    width: 100%; 
+    overflow: auto; 
+    margin: 5% auto 0 auto;
+}
+.signUp {
+    margin: 4.5% 5% 0 5%; 
+    width: 50%;
+}
+#signUp {
+    background-color: #AA0000; 
+    position: absolute; 
+    bottom: 5px; 
+    width: 93%; 
+    height: 8%; 
+    color: white;
+}
+.category_name {
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 8pt;
+}
+#productDetailNameDiv {
+    width: 100%; 
+    overflow: auto; 
+    text-align: center; 
+    font-size: 12pt; 
+    font-weight: bold;
+}
+#productDetailImageDiv {
+    width: 100%; 
+    overflow: auto; 
+    text-align: center;
+}
+#unitDiv{
+    width: 60%; 
+    overflow: auto; 
+    margin: 5% auto 0 auto;
+}
+#unit {
+    margin: 4.5% 5% 0 5%; 
+    float: left; 
+    width: 50%;
+}
+#addCart {
+    background-color: #16C4BB; 
+    position: absolute; 
+    bottom: 5px; 
+    width: 93%; 
+    height: 8%; 
+    color: white;
+}
